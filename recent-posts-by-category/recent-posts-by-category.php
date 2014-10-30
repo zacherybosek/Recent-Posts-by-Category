@@ -101,9 +101,9 @@ function __construct() {
 
 			echo __('<li>', $blog_details);
 
-			echo __( (string)$category->name, 'zach-portfolio' );
+			echo __( (string)$category->name, $blogdetails );
 
-			echo __('</li>', 'zach-portfolio');
+			echo __('</li>', $blogdetails);
 
 			echo __('<ul class="recent_posts_by_category_submenu">', $blog_details);
 
